@@ -96,24 +96,9 @@ animations = [ {
 "name": "idle",
 "speed": 10.0
 }, {
-"frames": [ ExtResource( 16 ), ExtResource( 18 ), ExtResource( 13 ), ExtResource( 15 ), ExtResource( 19 ), ExtResource( 20 ), ExtResource( 28 ), ExtResource( 26 ), ExtResource( 1 ), ExtResource( 11 ) ],
-"loop": false,
-"name": "dead",
-"speed": 10.0
-}, {
 "frames": [ ExtResource( 25 ), ExtResource( 32 ), ExtResource( 46 ), ExtResource( 53 ), ExtResource( 66 ), ExtResource( 77 ), ExtResource( 81 ), ExtResource( 60 ), ExtResource( 61 ), ExtResource( 57 ) ],
 "loop": true,
 "name": "hurt",
-"speed": 10.0
-}, {
-"frames": [ ExtResource( 55 ), ExtResource( 67 ), ExtResource( 36 ), ExtResource( 33 ), ExtResource( 48 ), ExtResource( 73 ), ExtResource( 54 ), ExtResource( 79 ) ],
-"loop": true,
-"name": "jump",
-"speed": 10.0
-}, {
-"frames": [ ExtResource( 80 ), ExtResource( 74 ), ExtResource( 44 ), ExtResource( 65 ), ExtResource( 75 ), ExtResource( 68 ), ExtResource( 39 ), ExtResource( 69 ), ExtResource( 31 ), ExtResource( 70 ) ],
-"loop": true,
-"name": "walk",
 "speed": 10.0
 }, {
 "frames": [ ExtResource( 12 ), ExtResource( 27 ), ExtResource( 14 ), ExtResource( 17 ), ExtResource( 21 ), ExtResource( 22 ), ExtResource( 23 ), ExtResource( 24 ) ],
@@ -121,9 +106,24 @@ animations = [ {
 "name": "fall",
 "speed": 10.0
 }, {
+"frames": [ ExtResource( 80 ), ExtResource( 74 ), ExtResource( 44 ), ExtResource( 65 ), ExtResource( 75 ), ExtResource( 68 ), ExtResource( 39 ), ExtResource( 69 ), ExtResource( 31 ), ExtResource( 70 ) ],
+"loop": true,
+"name": "walk",
+"speed": 10.0
+}, {
+"frames": [ ExtResource( 55 ), ExtResource( 67 ), ExtResource( 36 ), ExtResource( 33 ), ExtResource( 48 ), ExtResource( 73 ), ExtResource( 54 ), ExtResource( 79 ) ],
+"loop": true,
+"name": "jump",
+"speed": 10.0
+}, {
 "frames": [ ExtResource( 29 ), ExtResource( 30 ), ExtResource( 82 ), ExtResource( 40 ), ExtResource( 49 ), ExtResource( 45 ), ExtResource( 50 ), ExtResource( 62 ) ],
 "loop": true,
 "name": "run",
+"speed": 10.0
+}, {
+"frames": [ ExtResource( 16 ), ExtResource( 18 ), ExtResource( 13 ), ExtResource( 15 ), ExtResource( 19 ), ExtResource( 20 ), ExtResource( 28 ), ExtResource( 26 ), ExtResource( 1 ), ExtResource( 11 ) ],
+"loop": false,
+"name": "dead",
 "speed": 10.0
 } ]
 

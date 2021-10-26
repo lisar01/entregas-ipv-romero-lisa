@@ -82,6 +82,7 @@ func _play_animation(anim_name:String):
 func _remove():
 	hide()
 	collision_layer = 0
+	projectile_container.end_level()
 
 
 func is_on_floor()->bool:

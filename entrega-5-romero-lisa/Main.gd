@@ -1,8 +1,7 @@
 extends Node
 
 onready var player = $Environment/Player
-onready var tween = $Environment/Tween
-onready var fade = $Environment/GameOver
+var control_scene = preload("res://Control.tscn").instance()
 
 func _ready():
 	randomize()
@@ -16,5 +15,4 @@ func _restart_level():
 	get_tree().reload_current_scene()
 
 func end_level():
-	tween.interpolate_property(fade, "color", fade.color, Color.black, 1)
-	tween.start()
+	get_tree().get_root().add_child(control_scene)

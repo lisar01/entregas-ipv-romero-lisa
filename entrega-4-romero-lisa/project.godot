@@ -38,7 +38,7 @@ _global_script_class_icons={
 
 [application]
 
-config/name="Proyecto Godot - Clase 5"
+config/name="entrega-4-romero-lisa"
 run/main_scene="res://Main.tscn"
 config/icon="res://icon.png"
 
