@@ -1,0 +1,9 @@
+Desafío #5: Agregar al proyecto en GODOT:
+Elementos visuales para los elementos en escena.
+Animación en el personaje y la torreta.
+Bonus:
+Implementar Parallax Background.
+Implementar tilesets.
+Implementar una GUI (Medidor de salud/Pantalla de Victoria).
+Mini Bonus:
+Implementar Gema Verde curativa.
