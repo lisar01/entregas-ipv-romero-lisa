@@ -1,7 +1,7 @@
 extends KinematicBody2D
 class_name Player
 
-signal hit()
+signal hit(new_health)
 signal dead()
 
 onready var cannon = $Cannon
@@ -73,6 +73,7 @@ func _apply_movement():
 
 func notify_hit(amount):
 	state_machine.notify_hit(amount)
+	emit_signal("hit", PlayerData.current_health)
 
 func _play_animation(anim_name:String):
 	if animation_player.has_animation(anim_name):
@@ -91,5 +92,3 @@ func is_on_floor()->bool:
 		raycast.force_raycast_update()
 		is_colliding = is_colliding || raycast.is_colliding()
 	return is_colliding
-
-

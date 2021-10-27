@@ -1,7 +1,7 @@
 extends Node
 
 onready var player = $Environment/Player
-var control_scene = preload("res://Control.tscn").instance()
+var control_scene = preload("res://gui/Control.tscn").instance()
 
 func _ready():
 	randomize()

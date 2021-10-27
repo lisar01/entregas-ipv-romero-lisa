@@ -153,7 +153,6 @@ projectile_scene = ExtResource( 5 )
 position = Vector2( 15, 0 )
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
-visible = false
 position = Vector2( 0.5, -0.5 )
 shape = SubResource( 1 )
 
