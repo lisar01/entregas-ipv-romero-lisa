@@ -1,0 +1,7 @@
+Agregar sonido cuando:
+● Pierde una vida niña ( o un corazón)
+● tiros ( diferenciando niña de gatites)
+● cuando muere la niña
+● cuando salta la niña
+Bonus:
+● Agregar foley
